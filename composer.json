@@ -1,0 +1,27 @@
+{
+  "name": "mawaqit/prayer-times-moonsighting",
+  "type": "library",
+  "description": "PHP Prayer Times Library to Calculate Fajr and Isha times per moonsighting.com. It's fork from islamic-network/prayer-times-moonsighting",
+  "keywords": [
+    "islam",
+    "prayer times",
+    "moonsighting.com"
+  ],
+  "license": "GPL-3.0-or-later",
+  "config": {
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Mawaqit\\MoonSighting\\": "src/MoonSighting/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Mawaqit\\MoonSighting\\Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.2"
+  }
+}
